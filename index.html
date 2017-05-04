@@ -43,20 +43,38 @@
     <section id="skills">
 
     </section>
-    <section id="portfolio" class="container">
+    <section id="portfolio">
+      <div class="container-fluid">
       <h1>My portfolio</h1>
       <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5" id="hangman">
+        <button class="btn" data-toggle="modal" data-target=".bd-example-modal-lg">See More</button>
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <h1>Hangman</h1>
+                <div id="hangman-screenshot-left"></div>
+                <div id="hangman-screenshot-right"></div>
+                <p>A JavaScript game based on the classic hangman game, with an added timed mode. Recreating the logic of the classic game was a great introduction to problem solving</p>
+                <ul class="modal-list"><h2>Built Using;</h2>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>jQuery</li>
+                </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5" id="rockstagram">
       </div>
       </div>
       <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5" id="datenight">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5" id="aurora">
       </div>
       </div>
+    </div>
     </section>
     <section id="experience">
       <h1>Experience</h1>

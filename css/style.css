@@ -46,10 +46,54 @@ position: relative;
 
 .col-md-5 {
   border: grey solid 2px;
-  height: 400px;
+  height: 300px;
   margin: 5px;
 }
 
+#hangman {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hangman.png');
+/*background-position: center;*/
+background-size: cover;
+position: relative;
+}
+#rockstagram {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/rockstagram.png');
+/*background-position: center;*/
+background-size: cover;
+position: relative;
+}
+#datenight {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/datenight.png');
+/*background-position: center;*/
+background-size: cover;
+position: relative;
+}
+#aurora {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/aurora-explorer.png');
+/*background-position: center;*/
+background-size: cover;
+position: relative;
+}
+.modal-list {
+  list-style: none
+}
+li {
+  display: inline-block;
+  margin: 15px;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(202, 204, 206, 0.4)
+}
+.btn:hover {
+  background-color: rgba(237, 206, 83, 0.7)
+}
 .fa {
   display: inline;
   margin: 20 0 20 0;
