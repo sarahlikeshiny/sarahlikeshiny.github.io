@@ -9,7 +9,8 @@ a {
   color: black;
 }
 a:hover {
-  color: dodgerblue
+  color: dodgerblue;
+  text-decoration: none;
 }
 #nav {
   background-color:white;
@@ -49,7 +50,9 @@ position: relative;
   height: 300px;
   margin: 5px;
 }
-
+.container-fluid {
+  margin-left: 50px;
+}
 #hangman {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hangman.png');
 /*background-position: center;*/
@@ -83,16 +86,29 @@ li {
 }
 .btn {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
   width: 100%;
-  background-color: rgba(202, 204, 206, 0.4)
+  background-color: rgba(202, 204, 206, 0.4);
+
 }
 .btn:hover {
   background-color: rgba(237, 206, 83, 0.7)
+}
+.screenshot-left {
+  float: left;
+  height: 200px;
+  width: 400px;
+  border: 1px solid grey;
+}
+.screenshot-right {
+  float: right;
+  height: 200px;
+  width: 400px;
+  border: 1px solid grey;
 }
 .fa {
   display: inline;

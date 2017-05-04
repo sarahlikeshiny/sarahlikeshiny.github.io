@@ -47,34 +47,133 @@
       <div class="container-fluid">
       <h1>My portfolio</h1>
       <div class="row">
-      <div class="col-md-5" id="hangman">
-        <button class="btn" data-toggle="modal" data-target=".bd-example-modal-lg">See More</button>
-          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <h1>Hangman</h1>
-                <div id="hangman-screenshot-left"></div>
-                <div id="hangman-screenshot-right"></div>
-                <p>A JavaScript game based on the classic hangman game, with an added timed mode. Recreating the logic of the classic game was a great introduction to problem solving</p>
-                <ul class="modal-list"><h2>Built Using;</h2>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>jQuery</li>
-                </ul>
+        <div class="col-md-5" id="hangman">
+          <button class="btn" data-toggle="modal" data-target=".hangman-modal">See More</button>
+            <div class="modal fade hangman-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                   <h1 class="modal-title">Hangman</h1>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+                  </div>
+                   <div class="container">
+                     <div class="row">
+                       <div class="screenshot-left col-md-6"></div>
+                       <div class="screenshot-right col-md-6"></div>
+                     </div>
+                    <div class="row">
+                    <p class="col-md-12">A JavaScript game based on the classic hangman game, with an added timed mode. Recreating the logic of the classic game was a great introduction to problem solving</p>
+                    <ul class="modal-list"><h2>Built Using;</h2>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>jQuery</li>
+                    </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-5" id="rockstagram">
-      </div>
-      </div>
-      <div class="row">
-      <div class="col-md-5" id="datenight">
-      </div>
-      <div class="col-md-5" id="aurora">
-      </div>
+
+        <div class="col-md-5" id="rockstagram">
+          <button class="btn" data-toggle="modal" data-target=".rockstagram-modal">See More</button>
+            <div class="modal fade rockstagram-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                   <h1 class="modal-title">Rockstagram</h1>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+                  </div>
+                   <div class="container">
+                     <div class="row">
+                       <div class="screenshot-left col-md-6"></div>
+                       <div class="screenshot-right col-md-6"></div>
+                     </div>
+                    <div class="row">
+                      <p class="col-md-12"> a fully-authenticated Express App where users can upload their favourite geology photos, and comment on other user's pictures. The Google Maps and Autocomplete APIs were consumed to make it possible to visualise the locations of these pictures on a map</p>
+                      <ul class="modal-list"><h2>Built Using;</h2>
+                        <li>Node.js</li>
+                        <li>Expres</li>
+                        <li>jQuery</li>
+                        <li>Mongo DB</li>
+                        <li>AWS S3</li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+  <div class="row">
+      <div class="col-md-5" id="datenight">
+        <button class="btn" data-toggle="modal" data-target=".datenight-modal">See More</button>
+          <div class="modal fade datenight-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                 <h1 class="modal-title">Date Night</h1>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+                 </div>
+                 <div class="container">
+                   <div class="row">
+                     <div class="screenshot-left col-md-6"></div>
+                     <div class="screenshot-right col-md-6"></div>
+                   </div>
+                   <div class="row">
+                    <p class="col-md-12">a MEAN stack app built as part of a team that involved using GitHub collaboratively. Date Night consumes several APIs to allow users to plan their date night by selecting a cinema equidistant from 2 locations, see the show times for that cinema and select a restaurant close by and recieved the details of the date by email. The work was divided equally amongst the team so that everyone had experience of working with the whole stack but I was principally for the film times API requests in both the front and back end. The app allows user to upload an image of their date which is uploaded to AWS S3, authentication uses JWT and nodemailer was implimented to automatically send emails.</p>
+                    <ul class="modal-list"><h2>Built Using;</h2>
+                      <li>Node.js</li>
+                      <li>MongoDB</li>
+                      <li>AngularJS</li>
+                      <li>AWS S3</li>
+                      <li>Nodemailer</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-5" id="aurora">
+        <button class="btn" data-toggle="modal" data-target=".aurora-modal">See More</button>
+          <div class="modal fade aurora-modal" tabindex="-1" role="dialog" aria-labelledby="aurora explorer" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                 <h1 class="modal-title">Aurora-Explorer</h1>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+                 </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="screenshot-left col-md-6"></div>
+                    <div class="screenshot-right col-md-6"></div>
+                  </div>
+                  <div class="row">
+                  <p class="col-md-12">a full stack app built with a separately deployed back-end built in Rails and front-end built in AngularJS. The app allows the user to see the locations on Earth with the highest probability of seeing the Aurora on a map and to see flights to that location. The details of the trips are saved in a Postgresql database. The app consumes several APIs including Auroras Live and Skyscanner. Authentication using JWT</p>
+                  <ul class="modal-list"><h2>Built Using;</h2>
+                    <li>Rails</li>
+                    <li>Angular JS</li>
+                    <li>Postgresql</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
     </section>
     <section id="experience">
       <h1>Experience</h1>
