@@ -4,28 +4,41 @@
 h1 {
   font-family:'Oswald', sans-serif;
   letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 2px solid gold;
 }
+/*--------------------------nav styles------------------------------------------*/
 a {
-  color: black;
+  color: gold;
 }
 a:hover {
   color: dodgerblue;
   text-decoration: none;
 }
 #nav {
-  background-color:white;
   list-style: none;
   display: inline;
   float: right;
   font-size: 20px;
   z-index: 5;
 }
+.menu {
+    color:black;
+    cursor: pointer;
+    /*display: none;*/
+    font-size: 20px;
+  }
+  /*--------------------------hero styles------------------------------------------*/
+
 #hero {
 height: 100vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero.jpg');
 background-position: center;
 background-size: cover;
 position: relative;
+z-index: -2;
 }
 .name {
   font-size: 36px;
@@ -37,13 +50,30 @@ position: relative;
   text-align: center;
 }
 .link {
-  font-size: 18px;
+  font-size: 22px;
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: gold;
 
 }
+/*--------------------------Skills styles------------------------------------------*/
+#skills {
+  background-color: gainsboro;
+}
+.skills-list {
+  border: solid 2px grey;
+  background-color: gold;
+  border-radius: 10%;
+  margin: 10px;
+  padding: 0px 10px 0px 10px;
+}
+p {
+  text-align: center;
+}
+
+/*--------------------------Portfolio styles------------------------------------------*/
 
 .col-md-5 {
   border: grey solid 2px;
@@ -110,7 +140,15 @@ li {
   width: 400px;
   border: 1px solid grey;
 }
+/*--------------------------CV styles------------------------------------------*/
+#experience {
+  background-color: gainsboro;
+}
+
+/*--------------------------links styles------------------------------------------*/
+
 .fa {
   display: inline;
   margin: 20 0 20 0;
+  color: black;
 }
