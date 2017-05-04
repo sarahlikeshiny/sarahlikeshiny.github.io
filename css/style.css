@@ -1,0 +1,56 @@
+* {
+  font-family: 'Karla', sans-serif;
+}
+h1 {
+  font-family:'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: dodgerblue
+}
+#nav {
+  background-color:white;
+  list-style: none;
+  display: inline;
+  float: right;
+  font-size: 20px;
+  z-index: 5;
+}
+#hero {
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero.jpg');
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.name {
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.link {
+  font-size: 18px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.col-md-5 {
+  border: grey solid 2px;
+  height: 400px;
+  margin: 5px;
+}
+
+.fa {
+  display: inline;
+  margin: 20 0 20 0;
+}
