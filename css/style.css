@@ -62,48 +62,67 @@ z-index: -2;
 #skills {
   background-color: gainsboro;
 }
-.skills-list {
-  border: solid 2px grey;
+.md-col-4 {
+  width: 300px;
+  height: 500px;
+}
+.icon {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 20px;
   background-color: gold;
-  border-radius: 10%;
-  margin: 10px;
-  padding: 0px 10px 0px 10px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.text {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 200px;
+}
+h4 {
+  text-align: center;
+  margin-top: 50px;
 }
 p {
   text-align: center;
 }
 
 /*--------------------------Portfolio styles------------------------------------------*/
-
+h2 {
+  color: white;
+  margin-top: 40px;
+}
 .col-md-5 {
   border: grey solid 2px;
-  height: 300px;
+  height: 400px;
+  width: 400px;
   margin: 5px;
-}
-.container-fluid {
   margin-left: 50px;
 }
+
 #hangman {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hangman.png');
-/*background-position: center;*/
+background-position: center;
 background-size: cover;
 position: relative;
 }
 #rockstagram {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/rockstagram.png');
-/*background-position: center;*/
+background-position: center;
 background-size: cover;
 position: relative;
 }
 #datenight {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/datenight.png');
-/*background-position: center;*/
+background-position: center;
 background-size: cover;
 position: relative;
 }
 #aurora {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/aurora-explorer.png');
-/*background-position: center;*/
+background-position: center;
 background-size: cover;
 position: relative;
 }

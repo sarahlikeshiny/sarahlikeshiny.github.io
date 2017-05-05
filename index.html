@@ -47,49 +47,61 @@
     <section id="skills">
       <div class="container-fluid">
       <h1>Skills</h1>
-      <div class=" skills md-col-4">
-        <i class="fa fa-code fa-5x" aria-hidden="true"></i><h4>Languages</h4>
-        <p>JavaScript</p>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Ruby</p>
+        <div class="row">
+          <div class="skills md-col-4">
+          <i class="icon fa fa-code fa-5x" aria-hidden="true"></i>
+          <div class ="text">
+          <h4>Languages</h4>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Ruby</p>
+        </div>
+        </div>
+        <div class="skills md-col-4">
+          <i class="icon fa fa-desktop fa-5x" aria-hidden="true"></i>
+          <div class ="text">
+          <h4>Front End</h4>
+          <p>jQuery</p>
+          <p>AngularJS</p>
+          <p>SASS</p>
+          <p>Bootstrap</p>
+          <p>AJAX</p>
+        </div>
+        </div>
+        <div class="skills md-col-4">
+          <i class="icon fa fa-server fa-5x" aria-hidden="true"></i>
+          <div class ="text">
+          <h4>Back End</h4>
+          <p>Node.js</p>
+          <p>Rails</p>
+          <p>Express.js</p>
+          <p>Mongoose</p>
+          <p>Active Record</p>
+          <p>MongoDB</p>
+          <p>Postgresql</p>
+        </div>
+        </div>
+        <div class="skills md-col-4">
+          <i class="icon fa fa-terminal fa-5x" aria-hidden="true"></i>
+          <div class ="text">
+          <h4>Management, Deployment and Testing</h4>
+          <p>GitHub</p>
+          <p>Heroku</p>
+          <p>AWS S3</p>
+          <p>Bower</p>
+          <p>Gulp</p>
+          <p>Chai and Mocha</p>
+        </div>
       </div>
-      <div class="skills md-col-4">
-      <i class="fa fa-desktop fa-5x" aria-hidden="true"></i><h4>Front End</h4>
-      <p>jQuery</p>
-      <p>AngularJS</p>
-      <p>SASS</p>
-      <p>Bootstrap</p>
-      <p>AJAX</p>
-    </div>
-      <div class="skills md-col-4">
-      <i class="fa fa-server fa-5x" aria-hidden="true"></i><h4>Back End</h4>
-      <p>Node.js</p>
-      <p>Rails</p>
-      <p>Express.js</p>
-      <p>Mongoose</p>
-      <p>Active Record</p>
-      <p>MongoDB</p>
-      <p>Postgresql</p>
-
-      </div>
-      <div class="skills md-col-4">
-        <i class="fa fa-terminal fa-5x" aria-hidden="true"></i><h4>Management, Deployment and Testing</h4>
-        <p>GitHub</p>
-        <p>Heroku</p>
-        <p>AWS S3</p>
-        <p>Bower</p>
-        <p>Gulp</p>
-        <p>Chai and Mocha</p>
       </div>
     </div>
     </section>
-    <section id="portfolio">
-      <div class="container-fluid">
+    <section id="portfolio" class="container-fluid">
       <h1>My Portfolio</h1>
       <div class="row">
         <div class="col-md-5" id="hangman">
-          <button class="btn" data-toggle="modal" data-target=".hangman-modal">See More</button>
+          <button class="btn" data-toggle="modal" data-target=".hangman-modal">Hangman More Info</button>
             <div class="modal fade hangman-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -119,7 +131,7 @@
       </div>
 
         <div class="col-md-5" id="rockstagram">
-          <button class="btn" data-toggle="modal" data-target=".rockstagram-modal">See More</button>
+          <button class="btn" data-toggle="modal" data-target=".rockstagram-modal">Rockstgram More Info</button>
             <div class="modal fade rockstagram-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -153,7 +165,7 @@
 
   <div class="row">
       <div class="col-md-5" id="datenight">
-        <button class="btn" data-toggle="modal" data-target=".datenight-modal">See More</button>
+        <button class="btn" data-toggle="modal" data-target=".datenight-modal">Date Night More Info</button>
           <div class="modal fade datenight-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
@@ -184,7 +196,7 @@
       </div>
     </div>
       <div class="col-md-5" id="aurora">
-        <button class="btn" data-toggle="modal" data-target=".aurora-modal">See More</button>
+        <button class="btn" data-toggle="modal" data-target=".aurora-modal">Aurora Explorer More Info</button>
           <div class="modal fade aurora-modal" tabindex="-1" role="dialog" aria-labelledby="aurora explorer" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
@@ -213,9 +225,8 @@
         </div>
       </div>
     </div>
-  </div>
 
-    </section>
+  </section>
     <section id="experience" class="container-fluid">
       <h1>Experience</h1>
       <p>CV stuff goes here</p>
