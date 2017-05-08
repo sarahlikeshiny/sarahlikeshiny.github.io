@@ -14,19 +14,18 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" charset="utf-8"></script>
-
-
   </head>
+
   <body>
     <header id="nav">
       <nav class="navbar">
         <ul>
           <!-- <li class="menu">&#9776;</li> -->
         <div class="dropdown">
-          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">My Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+          <li class="nav-item"><a class="nav" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav" href="#portfolio">My Portfolio</a></li>
+          <li class="nav-item"><a class="nav" href="#experience">My Experience</a></li>
+          <li class="nav-item"><a class="nav" href="#links">Links</a></li>
         </div>
       </ul>
       <!-- see about cool nav styles -->
@@ -38,11 +37,16 @@
       <h1>Sarah Miller</h1>
       <h2>Junior Web Developer</h2>
     </div>
-    <a class="link" href="#about">More Info</a>
     </section>
     <section id="about" class="container-fluid">
       <h1>About Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+      <h5 class="about">My love of  shiny new technologies and my curiosity about the world of coding lead me to shift career from working as a Geologist in the oil and gas industry to web development via GA. I especially enjoy the open source mindset of my new industry and I can’t wait to dive deeper into the new world I’ve discovered.</h5>
+      </div>
+      <div class="col-md-2"></div>
+      </div>
     </section>
     <section id="skills">
       <div class="container-fluid">
@@ -229,15 +233,38 @@
   </section>
     <section id="experience" class="container-fluid">
       <h1>Experience</h1>
-      <p>CV stuff goes here</p>
+      <div class="row cv">
+      <div class="left col-md-4">
+        <h5>Web Development Immersive.<br>General Assembly London</br> <br>Jan 2017-April 2017</br></h5>
+      </div>
+      <div class="right col-md-8">
+        <p>Full-time immersive course in web development, covering a structured web programming curriculum delivered by industry experts. A course that not only teaches code but the ability to learn code focused on JavaScript, with Ruby as a secondary language. Concentrating on the MEAN stack and Ruby on Rails, and AngularJS as front end framework. The course also introduces working with Agile methodologies within teams and was a fantastic introduction to development.</p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="left col-md-4">
+        <h5>Senior Exploration Geologist.<br>Engie E&P UK ltd.</br><br> Oct 2007-Nov 2016.</br></h5>
+      </div>
+      <div class="right col-md-8">
+        <p>As exploration Geologist my primary role was to explore for new deposits of oil and gas on the UK continental shelf. My role was team based working on a day to day basis within multidisciplinary teams of various sizes depending on the scale of the project, and liaising with stakeholders from outside my own department, including management. I was also involved in planning tasks for the team and arranging meetings with external joint venture partners. My day to day job involved interpretation of old and new datasets, reaching conclusions and communicating my findings.</p>
+      </div>
+      </div>
+      <p class="footnote">Please see my linked in profile for further details</p>
     </section>
     <section id="links" class="container-fluid">
-      <a class="fa fa-github fa-5x" href="https://github.com/sarahlikeshiny" target="_blank"></a>
-      <a class="fa fa-linkedin-square fa-5x" href="https://www.linkedin.com/in/sarah-miller-3023249" target="_blank"></a>
-      <a class="fa fa-twitter-square fa-5x" href="https://twitter.com/SarahLikeShiny" target="_blank"></a>
-      <a class="fa fa-envelope fa-5x" href="mailto:hello@sarahlikeshiny.co.uk"></a>
+      <div class="row">
+      <div class="col-md-3"></div>
+      <div class= "col-md-8">
+        <a class="social fa fa-github fa-5x" href="https://github.com/sarahlikeshiny" target="_blank"></a>
+        <a class="social fa fa-linkedin-square fa-5x" href="https://www.linkedin.com/in/sarah-miller-3023249" target="_blank"></a>
+        <a class="social fa fa-twitter-square fa-5x" href="https://twitter.com/SarahLikeShiny" target="_blank"></a>
+        <a class="social fa fa-envelope fa-5x" href="mailto:hello@sarahlikeshiny.co.uk"></a>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
     </section>
     <footer>
+      <p>Sarah Miller 2017</p>
     </footer>
   </body>
 </html>

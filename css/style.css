@@ -10,10 +10,11 @@ h1 {
   border-bottom: 2px solid gold;
 }
 /*--------------------------nav styles------------------------------------------*/
-a {
+.nav {
   color: gold;
+  top: 0;
 }
-a:hover {
+.nav:hover {
   color: dodgerblue;
   text-decoration: none;
 }
@@ -49,21 +50,24 @@ z-index: -2;
   color: white;
   text-align: center;
 }
-.link {
-  font-size: 22px;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: gold;
 
+/*----------------------------about section------------------------------------*/
+
+#about {
+  height: 25vh;
 }
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
 /*--------------------------Skills styles------------------------------------------*/
 #skills {
+  height: 75vh;
   background-color: gainsboro;
 }
-.md-col-4 {
-  width: 300px;
+.skills {
+  width: 350px;
   height: 500px;
 }
 .icon {
@@ -163,11 +167,37 @@ li {
 #experience {
   background-color: gainsboro;
 }
+.cv {
+  border-bottom: 2px solid gold;
+}
+.right {
+  text-align: right;
+  margin-top: 10px;
 
+}
+.left {
+  margin-top: 10px;
+}
+.footnote {
+  border-top: 2px solid gold;
+}
 /*--------------------------links styles------------------------------------------*/
+.buttons {
+  margin-left: 200px;
+}
 
-.fa {
-  display: inline;
-  margin: 20 0 20 0;
+.social {
   color: black;
+  margin: 10px 40px 10px 40px;
+}
+.social:hover {
+  color: gold;
+  text-decoration: none;
+}
+footer {
+  border-top: 2px solid gold;
+  background-color: gainsboro;
+  /*position: fixed;
+  bottom: 0;*/
+  width: 100%;
 }
