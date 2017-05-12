@@ -9,6 +9,7 @@ h1 {
   padding-top: 5px;
   border-bottom: 2px solid gold;
 }
+
 /*--------------------------nav styles------------------------------------------*/
 .nav {
   color: gold;
@@ -31,6 +32,10 @@ h1 {
     /*display: none;*/
     font-size: 20px;
   }
+
+
+
+
   /*--------------------------hero styles------------------------------------------*/
 
 #hero {
@@ -53,9 +58,6 @@ z-index: -2;
 
 /*----------------------------about section------------------------------------*/
 
-#about {
-  height: 25vh;
-}
 .about {
   text-align: center;
   padding: 20px;
@@ -63,7 +65,6 @@ z-index: -2;
 
 /*--------------------------Skills styles------------------------------------------*/
 #skills {
-  height: 75vh;
   background-color: gainsboro;
 }
 .skills {
@@ -95,7 +96,6 @@ p {
 
 /*--------------------------Portfolio styles------------------------------------------*/
 h2 {
-  color: white;
   margin-top: 40px;
 }
 .col-md-5 {
@@ -105,6 +105,89 @@ h2 {
   margin: 5px;
   margin-left: 50px;
 }
+.projects {
+  display: inline-block;
+  margin: 10px;
+}
+#hangmanScreenshotLeft {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/start-screen.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#hangmanScreenshotRight {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hangmanV2Screenshot.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#rocksScreenshotRight {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image: url('../images/rocksshow.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#rocksScreenshotLeft {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image:url('../images/rocksindex.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#datesScreenshotLeft {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image:url('../images/newdate_page.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#datesScreenshotRight {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image:url('../images/select_cinema_page.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#auroraScreenshotLeft {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image:url('../images/editpage1.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#auroraScreenshotRight {
+  height: 200px;
+  width:200px;
+  margin:10px;
+  border: 1px solid grey;
+  background-image:url('../images/editpage2.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 
 #hangman {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hangman.png');
@@ -113,7 +196,7 @@ background-size: cover;
 position: relative;
 }
 #rockstagram {
-background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/rockstagram.png');
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/rockslogin.png');
 background-position: center;
 background-size: cover;
 position: relative;
@@ -197,7 +280,21 @@ li {
 footer {
   border-top: 2px solid gold;
   background-color: gainsboro;
-  /*position: fixed;
-  bottom: 0;*/
+  /*position: fixed;*/
+
+   height:100px;
   width: 100%;
+  height: auto;
 }
+
+
+@media only screen and (max-width: 575px) {
+nav {
+  height: auto;
+  display: block;
+  float: none;
+  text-align: right;
+  }
+  .dropdown {
+    display: none;
+  }
