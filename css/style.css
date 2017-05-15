@@ -14,23 +14,13 @@ h1 {
 }
 
 /*--------------------------nav styles------------------------------------------*/
-.nav {
-  color: gold;
-  top: 0;
-}
+
 
 .nav:hover {
   color: dodgerblue;
   text-decoration: none;
 }
 
-#nav {
-  list-style: none;
-  display: inline;
-  float: right;
-  font-size: 20px;
-
-}
 .menu {
     color:gold;
     cursor: pointer;
@@ -38,6 +28,29 @@ h1 {
     font-size: 30px;
   }
 
+  nav.demo-nav {
+    width:350px;
+    margin:0 auto;
+    display:block
+}
+
+nav.main-nav {
+    height:0px;
+    text-align: right;
+}
+
+nav.main-nav a {
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+    padding:15px 19px;
+    color: gold;
+}
+
+.container {
+    display: inline;
+    margin:0 auto;
+}
 
 
 
