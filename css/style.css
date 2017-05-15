@@ -5,9 +5,10 @@ h1 {
   font-family:'Oswald', sans-serif;
   letter-spacing: 2px;
   text-align: center;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   border-bottom: 2px solid gold;
+  margin: 30px;
 }
 .container-fluid {
   margin-top: 50px;
@@ -79,6 +80,9 @@ z-index: -2;
 .about {
   text-align: center;
   padding: 20px;
+}
+#blurb {
+  text-align: justify;
 }
 
 /*--------------------------Skills styles------------------------------------------*/
