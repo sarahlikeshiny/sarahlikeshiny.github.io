@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Karla|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/2c589b7ce0.js"></script>
@@ -18,14 +18,15 @@
 
   <body>
     <header>
-      <nav id="nav" class="navbar">
+      <nav id="nav">
         <ul>
-          <li class="nav-item"><a class="nav" href="#about">About Me</a></li>
-          <li class="nav-item"><a class="nav" href="#portfolio">My Portfolio</a></li>
-          <li class="nav-item"><a class="nav" href="#experience">My Experience</a></li>
-          <li class="nav-item"><a class="nav" href="#links">Links</a></li>
-      </ul>
-      <!-- see about cool nav styles -->
+          <div class="dropdown">
+            <li class="nav-item"><a class="nav" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav" href="#portfolio">My Portfolio</a></li>
+            <li class="nav-item"><a class="nav" href="#experience">My Experience</a></li>
+            <li class="nav-item"><a class="nav" href="#links">Links</a></li>
+          </div>
+        </ul>
       </nav>
     </header>
 
@@ -53,46 +54,46 @@
           <i class="icon fa fa-code fa-5x" aria-hidden="true"></i>
           <div class ="text">
           <h4>Languages</h4>
-          <p>JavaScript</p>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>Ruby</p>
+          <p class="skill">JavaScript</p>
+          <p class="skill">HTML</p>
+          <p class="skill">CSS</p>
+          <p class="skill">Ruby</p>
         </div>
         </div>
         <div class="skills md-col-4">
           <i class="icon fa fa-desktop fa-5x" aria-hidden="true"></i>
           <div class ="text">
           <h4>Front End</h4>
-          <p>jQuery</p>
-          <p>AngularJS</p>
-          <p>SASS</p>
-          <p>Bootstrap</p>
-          <p>AJAX</p>
+          <p class="skill">jQuery</p>
+          <p class="skill">AngularJS</p>
+          <p class="skill">SASS</p>
+          <p class="skill">Bootstrap</p>
+          <p class="skill">AJAX</p>
         </div>
         </div>
         <div class="skills md-col-4">
           <i class="icon fa fa-server fa-5x" aria-hidden="true"></i>
           <div class ="text">
           <h4>Back End</h4>
-          <p>Node.js</p>
-          <p>Rails</p>
-          <p>Express.js</p>
-          <p>Mongoose</p>
-          <p>Active Record</p>
-          <p>MongoDB</p>
-          <p>Postgresql</p>
+          <p class="skill">Node.js</p>
+          <p class="skill">Rails</p>
+          <p class="skill">Express.js</p>
+          <p class="skill">Mongoose</p>
+          <p class="skill">Active Record</p>
+          <p class="skill">MongoDB</p>
+          <p class="skill">Postgresql</p>
         </div>
         </div>
         <div class="skills md-col-4">
           <i class="icon fa fa-terminal fa-5x" aria-hidden="true"></i>
           <div class ="text">
           <h4>Management, Deployment and Testing</h4>
-          <p>GitHub</p>
-          <p>Heroku</p>
-          <p>AWS S3</p>
-          <p>Bower</p>
-          <p>Gulp</p>
-          <p>Chai and Mocha</p>
+          <p class="skill">GitHub</p>
+          <p class="skill">Heroku</p>
+          <p class="skill">AWS S3</p>
+          <p class="skill">Bower</p>
+          <p class="skill">Gulp</p>
+          <p class="skill">Chai and Mocha</p>
         </div>
       </div>
       </div>
@@ -125,8 +126,8 @@
                       <li>jQuery</li>
                     </ul>
                 </div>
-                <a class="projects" href ="https://frozen-journey-66349.herokuapp.com">Play Version 1</a>
-                <a class="projects" href ="https://peaceful-depths-56722.herokuapp.com/">Play Version 2</a>
+                <a class="projects" href ="https://frozen-journey-66349.herokuapp.com" target="_blank">Play Version 1</a>
+                <a class="projects" href ="https://peaceful-depths-56722.herokuapp.com/" target="_blank">Play Version 2</a>
               </div>
             </div>
           </div>
@@ -159,7 +160,7 @@
                         <li>AWS S3</li>
                       </ul>
                   </div>
-                  <a class="projects" href ="https://polar-hollows-80952.herokuapp.com">Rockstagram</a>
+                  <a class="projects" href ="https://polar-hollows-80952.herokuapp.com" target="_blank">Rockstagram</a>
               </div>
             </div>
           </div>
@@ -194,7 +195,7 @@
                       <li>Nodemailer</li>
                     </ul>
                 </div>
-                  <a class="projects" href ="https://powerful-reef-28263.herokuapp.com/">Date Night</a>
+                  <a class="projects" href ="https://powerful-reef-28263.herokuapp.com/" target="_blank">Date Night</a>
             </div>
           </div>
         </div>
@@ -206,7 +207,7 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                 <h1 class="modal-title">Aurora-Explorer</h1>
+                 <h1 class="modal-title">Aurora Explorer</h1>
                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                    <span aria-hidden="true">&times;</span>
                  </button>
@@ -224,8 +225,8 @@
                     <li>Postgresql</li>
                   </ul>
                 </div>
-                <a class="projects" href ="https://pure-river-60301.herokuapp.com">Aurora Explorer Front-end</a>
-                <a class="projects" href ="https://polar-garden-45472.herokuapp.com">Aurora Explorer Rails API</a>
+                <a class="projects" href ="https://pure-river-60301.herokuapp.com" target="_blank">Aurora Explorer Front-end</a>
+                <a class="projects" href ="https://polar-garden-45472.herokuapp.com" target="_blank">Aurora Explorer Rails API</a>
               </div>
             </div>
           </div>
